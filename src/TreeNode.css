@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.app-container {
+    padding: 20px;
+    margin-right: 40px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.tree-node {
+    margin-top: 10px;
+    //padding: 5px;
+    white-space: nowrap;
+}
+
+.node-content {
+    display: flex;
+    align-items: center;
+}
+.node-content:hover {
+    background-color: lightgray;
+}
+
+.node-title {
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.node-title:hover {
+    background-color: lightgray;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.icon-button:hover {
+    color: #ff8000;
+}
+
+.children-container {
+    padding-left: 20px;
+    position: relative;
+}
+
+.tree-node:first-child {
+    margin-top: 0;
+}
+
+.children-container .tree-node {
+    margin-top: 10px;
+}
