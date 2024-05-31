@@ -24,7 +24,7 @@ const App = () => {
       }
     };
 
-    const newTree = JSON.parse(JSON.stringify(tree)); // Глубокое копирование дерева
+    const newTree = JSON.parse(JSON.stringify(tree));
     addNode(newTree);
     setTree(newTree);
   };
@@ -39,7 +39,7 @@ const App = () => {
       }
     };
 
-    const newTree = JSON.parse(JSON.stringify(tree)); // Глубокое копирование дерева
+    const newTree = JSON.parse(JSON.stringify(tree));
     deleteNode(newTree);
     setTree(newTree);
   };
@@ -53,7 +53,7 @@ const App = () => {
       }
     };
 
-    const newTree = JSON.parse(JSON.stringify(tree)); // Глубокое копирование дерева
+    const newTree = JSON.parse(JSON.stringify(tree));
     editNode(newTree);
     setTree(newTree);
   };

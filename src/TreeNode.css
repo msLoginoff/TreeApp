@@ -23,7 +23,7 @@ body {
     align-items: center;
 }
 .node-content:hover {
-    background-color: lightgray;
+    background-color: #f1f1f1;
 }
 
 .node-title {
@@ -32,7 +32,7 @@ body {
 }
 
 .node-title:hover {
-    background-color: lightgray;
+    background-color: #f1f1f1;
 }
 
 .icon-button {
